@@ -1,0 +1,120 @@
+/* Mobile responsiveness */
+@media only screen and (max-width: 600px){
+    #logo{
+        display: inline;
+        font-size: 0.3rem;
+    }
+    nav a{
+        display: none;
+    }
+    header div{
+        position: relative;
+        top: 0.4px;
+        left: 17%;
+    }
+    input{
+        width: 320px;
+        height: 37px;
+        border-radius: 22px;
+        font-size: 1rem;
+    }
+    #toggleimg{
+        height: 20px;
+        display: inherit;
+    }
+    .head-image1{
+        position: relative;
+        top: 20px;
+        background-size: 100%;
+    }
+    .head-image1 h1{
+        left: 60px;
+        top: 30px;
+        font-size: 1rem;
+    }
+    .head-image1 p{
+        position: relative;
+        top: -215px;
+        left: -110px;
+        font-size: 0.7rem;
+    }
+    .head-image2{
+        position: relative;
+        bottom: 60px;
+    }
+    .random-recipe h2{
+        position: relative;
+        left: 30px;
+        bottom: 120px;
+        font-size: 1rem;
+    }
+    .recipe-container{
+        position: relative;
+        left: 30px;
+        bottom: 120px;
+        width: 430px;
+        height: 160px;
+    }
+    .text-elements{
+        position: relative;
+        bottom: 160px;
+        left: 52%;
+    }
+    #recipe-name{
+        position: relative;
+        left: 70px;
+        font-size: 1rem;
+    }
+    #recipie-img{
+        height: 160px;
+    }
+    .row1,.row2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #img1{
+        width: 474px;
+        height: 315px;
+    }
+    #image{
+        width: 474px;
+        height: 205px;
+    }
+    #logo{
+        position: relative;
+        left: 12%;
+        top: 120px;
+        font-size: 1rem;
+    }
+    .webfooter1{
+        display: flex;
+        flex-direction: column;
+    }
+    .webfotters{
+        position: relative;
+        left: 29%;
+        top: 95px;
+        display: flex;
+        justify-content: space-around;
+        width: 600px;
+    }
+    .webfotters a{
+        text-decoration: none;
+        color: black;
+    }
+    footer h1{
+        position: relative;
+        top: 90px;
+        font-size: 1.2rem;
+        font-weight: lighter;
+        text-align: center;
+    }
+    footer h2{
+        position: relative;
+        top: 130px;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}
