@@ -1,4 +1,4 @@
-/* This is just for responsive design of the website */
+/* This is to make the recipe page's mobile responsiveness */
 /* Mobile responsiveness */
 @media only screen and (max-width: 600px){
     #logo{
@@ -43,37 +43,37 @@
         position: relative;
         bottom: 60px;
     }
-    .random-recipe h2{
-        position: relative;
-        left: 30px;
-        bottom: 120px;
-        font-size: 1rem;
-    }
-    .recipe-container{
-        position: relative;
-        left: 30px;
-        bottom: 120px;
-        width: 430px;
-        height: 244px;
-    }
-    #recipie-img1{
-        height: 244px;
-        width: 168px;
-        border-radius: 16px 0px 0px 16px;
-        transition: 0.7s;
-    }
-    .text-elements{
-        position: relative;
-        bottom: 240px;
-        left: 42%;
-    }
-    #recipe-name{
-        position: relative;
-        left: 30px;
-        font-size: 1rem;
+    .recipie-container{
+        border-radius: 20px;
+        background: rgba(223, 255, 255, 0.76);
+        height: 818px;
+        width: 480px;
     }
     #recipie-img{
-        height: 160px;
+        width: 480px;
+        height: 318px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .text{
+        position: relative;
+        left: 50px;
+        top: 10px;
+    }
+    .text h2{
+        font-size: 1.2rem;
+    }
+    .ingredients-container{
+        position: relative;
+        left: 50px;
+        width: 400px;
+    }
+    .instruction-container{
+        overflow-y: scroll;
+        font-size: 0.7rem;
+        position: relative;
+        width: 400px;
+        height: 180px;
+        font-weight: lighter;
     }
     .row1 {
         display: flex;
@@ -109,41 +109,5 @@
         position: relative;
         left: 170px;
         top: 50px;
-    }
-    #logo{
-        position: relative;
-        left: 12%;
-        top: 120px;
-        font-size: 1rem;
-    }
-    .webfooter1{
-        display: flex;
-        flex-direction: column;
-    }
-    .webfotters{
-        position: relative;
-        left: 29%;
-        top: 95px;
-        display: flex;
-        justify-content: space-around;
-        width: 600px;
-    }
-    .webfotters a{
-        text-decoration: none;
-        color: black;
-    }
-    footer h1{
-        position: relative;
-        top: 90px;
-        font-size: 1.2rem;
-        font-weight: lighter;
-        text-align: center;
-    }
-    footer h2{
-        position: relative;
-        top: 130px;
-        font-weight: lighter;
-        text-align: center;
-        font-size: 1.2rem;
     }
 }

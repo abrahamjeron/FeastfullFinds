@@ -1,0 +1,145 @@
+/* This page is for styling the recipe page of this website */
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Monoton&family=Space+Grotesk:wght@300&display=swap');
+*{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+nav a{
+    margin: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.3rem;
+}
+header nav #logo{
+    position: relative;
+    left: 12%;
+    font-size: 1.7rem;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+header div{
+    position: relative;
+    bottom: 27px;
+    left: 70%;
+}
+input{
+    border: 1.3px solid black;
+    width: 380px;
+    height: 37px;
+    border-radius: 22px;
+    font-size: 1rem;
+}
+header button{
+    position: relative;
+    right: 115px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 22px;
+    border: none;
+    font-size: 1rem;
+    padding-bottom: 11px;
+    padding-right: 20px;
+}
+button img{
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+#toggle{
+    position: relative;
+    top: 1px;
+    left: 20px;
+    background: none;
+    transform: rotate(90deg);
+}
+#toggleimg{
+    height: 25px;
+    display: none;
+    transform: rotate(90deg);
+}
+footer h1{
+    position: relative;
+    top: 130px;
+    font-weight: lighter;
+    text-align: center;
+}
+footer h2{
+    position: relative;
+    top: 130px;
+    font-weight: lighter;
+    text-align: center;
+}
+#logo{
+    position: relative;
+    left: 12%;
+    font-size: 1.7rem;
+    font-family: 'Hachi Maru Pop', cursive;
+    text-decoration: none;
+    color: black;
+}
+.webfooter1{
+    display: flex;
+    flex-direction: column;
+}
+.webfotters{
+    position: relative;
+    left: 29%;
+    top: 95px;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+.webfotters a{
+    text-decoration: none;
+    color: black;
+}
+.recipie-container{
+    border-radius: 20px;
+    background: rgba(223, 255, 255, 0.76);
+    height: 618px;
+}
+#recipie-img{
+    width: 710px;
+    height: 618px;
+    border-radius: 20px 0px 0px 20px;
+}
+.text{
+    position: relative;
+    left: 750px;
+    bottom: 600px;
+}
+.text h2{
+    font-size: 2rem;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+.ingredients-container{
+    position: relative;
+    left: 50px;
+    width: 450px;
+}
+#ingredients{
+    font-size: 1.2rem;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+.instruction-container{
+    overflow-y: scroll;
+    font-size: 1.7rem;
+    position: relative;
+    width: 670px;
+    height: 250px;
+    font-weight: lighter;
+}
+#previous,#next{
+    font-size: 1rem;
+    background: none;
+    border: 1px black solid;
+    border-radius: 12px;
+}
+.buttons{
+    position: relative;
+    left: 460px;
+    top: 60px;
+}

@@ -1,3 +1,4 @@
+/* this page is for styling hte entier webpage */
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Monoton&family=Space+Grotesk:wght@300&display=swap');
 *{
     font-family: 'Merriweather Sans', sans-serif;
@@ -20,7 +21,7 @@ header nav #logo{
 }
 header div{
     position: relative;
-    bottom: 27px;
+    bottom: 40px;
     left: 70%;
 }
 input{
@@ -32,8 +33,9 @@ input{
 }
 header button{
     position: relative;
+    top: 0.5px;
     right: 115px;
-    height: 40px;
+    height: 41px;
     background-color: black;
     color: white;
     border-radius: 22px;
@@ -103,12 +105,13 @@ button img{
 }
 #recipie-img{
     border-radius: 16px 0px 0px 16px;
-    transition: 0.7s;
+
 }
 #recipie-img1{
     height: 444px;
     width: 568px;
     border-radius: 16px 0px 0px 16px;
+    transition: 0.7s;
 }
 .text-elements{
     position: relative;
@@ -117,12 +120,15 @@ button img{
 }
 #recipe-name{
     position: relative;
-    left: 70px;
+    right: 20px;
     font-size: 3rem;
     font-family: 'Hachi Maru Pop', cursive;
     text-align: center;
 }
-#recipie-img:hover{
+#recipie-namecontainer{
+    width: 650px;
+}
+#recipie-img1:hover{
     transform: scale(1.05);
     box-shadow: 6px 4px 7.5px 2px rgba(0, 0, 0, 0.25);
 }
@@ -139,7 +145,6 @@ button img{
 #fork{
     position: relative;
     transition: all 0.7s;
-  
 }
 .try-btn{
     position: relative;
@@ -151,19 +156,26 @@ button img{
         left: 0px;
     }
     to{
-        left: 170px;
+        left: 670px;
     }
 }
 #img1{
-    background-color: #E4FFF9;
-    box-shadow: 1px 17px 9.9px 0px rgba(0, 0, 0, 0.25);
-    border: 1px solid #FFCDCD;
-    border-radius: 20px;
     width: 274px;
-    height: 305px;
+    height: 349px;
+    border-radius: 20px;
+    border: 1px solid #FFCDCD;
+    background: #FFF;
+    box-shadow: 1px 7px 9.9px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.7s;
+}
+#img1:hover{
+    box-shadow: 1px 18px 9.9px 0px rgba(0, 0, 0, 0.25);
+    transform: scale(1.1);
 }
 #image{
     border-radius: 20px 20px 0px 0px;
+    height: 240px;
+    width: 320.5px;
 }
 #recipiename{
     font-size: 1.2rem;
@@ -171,14 +183,18 @@ button img{
     left: 20px;
     top: 10px;
 }
-.row1,.row2{
-    overflow-x: scroll;
+
+.row1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* height: 400vh; */
 }
-.row2{
-    position: relative;
-    top: 40px;
+
+.row1 > * {
+    flex: 0 0 calc(23.33% - 10px);
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
 footer h1{
     position: relative;
@@ -213,6 +229,43 @@ footer h2{
     width: 600px;
 }
 .webfotters a{
+    text-decoration: none;
+    color: black;
+}
+#trybtn{
+    z-index: 1001;
+    position: relative;
+    left: 210px;
+    top: 20px;
+    font-size: 1rem;
+    display: flex;
+    width: 90px;
+    padding: 3px 3px 7px 3px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #000;
+    font-family: 'Hachi Maru Pop', cursive;
+    transition: 0.5s;
+    background-color: white;
+}
+#trybtn:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 2px 4.5px 0px rgba(0, 0, 0, 0.72);
+}
+#description{
+    font-size: 1.7rem;
+    font-family: 'Hachi Maru Pop', cursive;
+    text-align: center;
+}
+#backtohome{
+    position: relative;
+    left: 620px;
+    top: 20px;
+    border: black 1px solid;
+    padding: 10px 15px 10px 15px;
+    font-size: 1.5rem;
+    border-radius: 22px;
     text-decoration: none;
     color: black;
 }

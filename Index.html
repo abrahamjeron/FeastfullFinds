@@ -1,3 +1,4 @@
+<!-- This is the home page (main page) of this website -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,38 +14,42 @@
         <!-- navigational elements -->
         <nav>
             <button id="toggle"><img id="toggleimg" src="./Asserts/Menu.png" alt=""></button>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Credits</a>
-            <a href="" id="logo">Feastful Finds</a>
+            <a href="#">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./credits.html">Credits</a>
+            <a href="./index.html" id="logo">Feastful Finds</a>
         </nav>
         <!-- Search bar elements -->
         <div class="search-bar">
             <input type="text" id="search-input" placeholder="eg.Seafood">
-            <button><img src="./Asserts/Search.png" alt=""> Search</button>
+            <button id="search-button"><img src="./Asserts/Search.png" alt="" > Search</button>
         </div>
     </header>
-    <!--  -->
+    <!-- header Tag line about the webpage -->
     <div class="head-image1">
         <h1>Find your Recipe</h1>
         <p>Feastful Finds: Your recipe magic wand. <br> Crave it, search it, cook it – effortless <br> culinary joy at your command!</p>
     </div>
     <div class="head-image2">
         <img class="head-image2" src="./Asserts/istockphoto-1143693080-612x612 1.jpg" alt="">
-    </div>
+    </div>  
 
+    <!-- Container for random recipie -->
     <div class="random-recipe">
-        <h2>Our Recipe suggestion for you:</h2>
+        <h2>Chef's picks</h2>
         <div class="recipe-container">
             <span id="recipie-img">
+                <!-- Image of the random recipie comes here -->
             </span>
             <div class="text-elements">
                 <h3>
                     Recipe name:
                 </h3>
-                <span id="recipe-name">
-                    
-                </span>
+                <div id="recipie-namecontainer">
+                    <span id="recipe-name">
+                        <!-- name of the recipie comes here -->
+                    </span>
+                </div>
                 <div class="try-btn">
                     <button id="try-btn">Try it</button>
                     <img id="fork" src="./Asserts/48367989879 1.png" alt="">
@@ -52,63 +57,32 @@
             </div>
         </div>
     </div>
-    <h2>Here is the list of recipies on <span id="category-name"></span></h2>
+
+    <h2><span id="category-name"></span></h2>
     <div>
-        <div class="row1">
-            <div id="img1">
-                <img id="image" src="./Asserts/FeastFulFinds/1529445434 1.png" alt="">
-                <div id="recipiename">Recipie name</div>
-            </div>
-            <div id="img1">
-                <img id="image" src="./Asserts/FeastFulFinds/1c5oso1614347493 1.png" alt="">
-                <div id="recipiename">Recipie name</div>
-            </div>
-            <div id="img1">
-                <img id="image" src="./Asserts/FeastFulFinds/lpd4wy1614347943 2.png" alt="">
-                <div id="recipiename">Recipie name</div>
-            </div>
-            <div id="img1">
-                <img id="image" src="./Asserts/FeastFulFinds/rvypwy1503069308 1.png" alt="">
-                <div id="recipiename">Recipie name</div>
-            </div>
-        </div>
-        
-        <div class="row2">
-            <div id="img1">
-                <img id="image" src="./Asserts/FeastFulFinds/yypwwq1511304979 1.png" alt="">
-                <div id="recipiename">Recipie name</div>
-            </div>
-            <div id="img1">
-                <img id="image" src="./Asserts/FeastFulFinds/wvqpwt1468339226 1.png" alt="">
-                <div id="recipiename">Recipie name</div>
-            </div>
-            <div id="img1">
-                <img id="image" src="./Asserts/FeastFulFinds/ysxwuq1487323065 1.png" alt="">
-                <div id="recipiename">Recipie name</div>
-            </div>
-            <div id="img1">
-                <img id="image" src="./Asserts/FeastFulFinds/1529445434 1.png" alt="">
-                <div id="recipiename">Recipie name</div>
-            </div>
+        <div id="list" class="row1">
+            <!-- list of items comes here from vanilla JS-->
         </div>
     </div>
+    <!-- footer of the webpage -->
     <footer>
         <h1>You've reached the end of the list.</h1>
         <a href="" id="logo">Feastful Finds</a>
         <div class="webfotters">
             <div class="webfooter1">
                 <p>WebPage</p>
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Credits</a>
+                <a href="#">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./credits.html">Credits</a>
             </div>
             <div>
                 <p>WebPage</p>
-                <a href="">API Credits</a>
+                <a href="./credits.html">API Credits</a>
             </div>
         </div>
         <h2>Made with ❤️ by Kalvian</h2>
     </footer>
+    <!-- linking Java Script -->
     <script src="./scripts/script.js"></script>
 </body>
 </html>
