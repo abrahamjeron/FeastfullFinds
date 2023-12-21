@@ -109,3 +109,17 @@ const fork = document.getElementById("fork")
 tryBtn.addEventListener("click",function(){
     fork.style.animation='fork 0.5s linear'
 })
+
+const togglebtn = document.getElementById("toggle")
+togglebtn.addEventListener("click",function(){
+  if (document.getElementById('a').style.display=='inherit'){
+    document.getElementById('a').style.display='none'
+    document.getElementById('b').style.display='none'
+    document.getElementById('c').style.display='none'
+  } else{
+    document.getElementById('a').style.display='inherit'
+    document.getElementById('b').style.display='inherit'
+    document.getElementById('c').style.display='inherit'
+  }
+  
+})

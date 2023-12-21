@@ -28,7 +28,7 @@ fetch (`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${randomRecipeid}`)
         var imageUrl = data.meals[0].strMealThumb
         recipeImg.innerHTML=`<img id="recipie-img" src=${imageUrl} alt="">`
         var videoLink = document.getElementById("link-container")
-        videoLink.innerHTML=`<a href=${data.meals[0].strYoutube}>Watch Video</a>`
+        videoLink.innerHTML=`<a href=${data.meals[0].strYoutube}>Watch Video</a>   <img src="./Asserts/YouTube.png" id="youtube" alt="">`
         // <a href="">Watch Video</a>
         console.log(data.meals[0].strYoutube)
     })
